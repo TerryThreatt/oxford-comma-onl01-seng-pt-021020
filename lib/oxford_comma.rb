@@ -1,5 +1,13 @@
-require 'pry'
-
 def oxford_comma(array)
-  str = array.
-end
+   if array.size == 1
+     array[0]
+   elsif
+   array.size == 2
+    array.join(" and ")
+   else
+    array.size == 3
+     array.insert(2, ", and")
+     array.insert(1, ",")
+     array.join(" ")
+   end
+ end
